@@ -1,8 +1,9 @@
-## 发布数据
+##发布数据
+<br><hr style=" height:12px;border:none;border-top:4px solid #A9A9A9;" /> 
 
 发布数据是数据提供方的行为，需要在网页端和 Client 客户端分步操作。在网页端您可以完成：新增私有\开放 Repository 、修改私有\开放 Repository 、修改私有\开放 DataItem ，而新增私有\开放 DataItem 、新增 Package 等则需要通过 Client 客户端来完成。
 
-### 第一步：新增 Repository （网页端操作）
+####第一步：新增 Repository （网页端操作）
 
 1)如果您是认证用户，登录之后，您可以开始发布数据了。进入 DataHub 平台“我的发布”，或者直接输入网址：[https://hub.dataos.io/my/publish](https://hub.dataos.io/my/publish)。
 
@@ -20,11 +21,11 @@
 
 ![](img/new_repo.png.jpg)
 
-### 第二步：新增 DataItem （ Client 客户端操作）
+####第二步：新增 DataItem （ Client 客户端操作）
 
 假设在 `/home/myusr/data/topub` 目录下存在若干文件，我们要发布这个目录里面的数据。
 
-#### 创建 Datapool
+#####创建 Datapool
 
 数据提供方使用 Client 客户端发布 DataItem 前，需要在本地基于已有数据建立一个 Datapool ，发布这个 Datapool 里面的数据。
 
@@ -36,7 +37,7 @@
 
 	DataHub : datapool create success, name: mydp type:file path:/home/myusr/data
 
-#### 新增 DataItem
+#####新增 DataItem
 
 发布 DataItem 需要指定 `$DATAPOOL` 和 `$DATAPOOL` 下的子路径 `$LOCATION` , 可选参数 --accesstype, -t= 指定 Item 属性：public, private, 默认 private，可选参数 --comment, -m=
 
@@ -48,11 +49,11 @@
 
 	DataHub : Successfully published
 
-#### 补充 DataItem 信息
+#####补充 DataItem 信息
 
 您可以选择在网页端或 Client 客户端对 DataItem 的信息进行补充。
 
-- ##### 在网页端补充 DataItem 信息
+- ######在网页端补充 DataItem 信息
 
     - 选择 DataItem 修改，或样例、元数据修改。
 
@@ -66,7 +67,7 @@
 
 	![](img/update_sample_meta.png)
 
-- ##### 在 Client 客户端补充 DataItem 信息
+- ######在 Client 客户端补充 DataItem 信息
 
 	在发布 DataItem 之前，可以在其对应的目录里创建、编译三个文件： sample.md 、 eta.md 、price.cfg ，这三个文件的作用分别是：
 
@@ -101,7 +102,7 @@
 
 其中 times 代表可 pull 次数， money 代表价格， expire 代表有效期。
 
-### 第三步：新增 Package（Client客户端操作）
+####第三步：新增 Package（Client客户端操作）
 
 发布 Package 必须指定 TAGDETAIL ,用来指定 Tag 对应文件名，该文件必须存在于 $DATAPOOL://$LOCATION 内，可选参数 --comment, -m=
 
@@ -113,7 +114,7 @@
 
 	DataHub : Successfully published
 
-### 数据发布注意事项：
+####数据发布注意事项：
 
 > Markdown 格式的语法，可参见 [http://www.markdown.cn/](http://www.markdown.cn/) 。
 

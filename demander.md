@@ -1,14 +1,15 @@
-## 下载数据
+##下载数据
+<br><hr style=" height:12px;border:none;border-top:4px solid #A9A9A9;" /> 
 
 DataHub 提供的数据类型包括：批量数据、 API 数据和流式数据。
 
 下载数据是数据需求方的行为，需要在网页端和 Client 客户端分步操作。在网页端您可以完成数据的"立刻订购"或"申请订购"，而 下载数据则需要通过 Client 客户端来完成。
 
-### 第一步：订购数据（网页端操作）
+####第一步：订购数据（网页端操作）
 
 1)进入 DataHub 网站，查看、搜索 Repository 、 DataItem 后，选择需要订购的数据，根据数据提供方设定的不同权限，点击“立刻订购”或“申请订购”。
 
-![](img/immediate_to_buy.png)![](apply_to_buy.png)
+![](img/immediate_to_buy.png)![](img/apply_to_buy.png)
   
 2)签订数据订购合约。甲方为数据需求方，乙方为数据提供方。
 
@@ -22,9 +23,9 @@ DataHub 提供的数据类型包括：批量数据、 API 数据和流式数据�
 
 ![](img/my_order.png)
  
-### 第二步：数据下载（Client客户端操作）
+####第二步：数据下载（Client客户端操作）
 
-#### 创建 Datapool
+#####创建 Datapool
 
 如果需要下载数据，则必须创建相应的 Datapool 。
 
@@ -36,7 +37,7 @@ DataHub 提供的数据类型包括：批量数据、 API 数据和流式数据�
 
 	datapool create success, name: mydp type:file path:/home/myusr/data/itempull
 
-#### 数据下载
+#####数据下载
 
 	datahub pull repotest/itemtest:tagtest mydp://mydir1 -d tagdestname.txt
 
