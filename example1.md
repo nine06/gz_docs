@@ -1,7 +1,7 @@
 ##应用场景一 ： 下载数据
 <br>
 <hr style=" height:12px;border:none;border-top:4px solid #A9A9A9;" /> 
-下面介绍从DataHub网站订购网络搜索热词数据（Hot_searches / Hot_words） ，并通过客户端下载的过程。
+下面介绍从DataHub网站订购网络搜索热词数据（Hot_searches / Hot_words） ，并通过客户端下载。
 ###第一步 在DataHub网站订购数据
 在网站上订购了网络搜索热词数据（Hot_searches / Hot_words）  
 
@@ -26,16 +26,16 @@
   	 Hot_searches/Hot_words  file        online   
 
 ###第四步 创建数据的存放目录（数据池，datapool）
-在本地创建一个名叫datahubdp2的数据池，指定存储类型为文件（file），路径为/var/lib/datahub 。 
+在本地创建一个名叫datahubdp1的数据池，指定存储类型为文件（file），路径为/var/lib/datahub 。 
 
-* 对于新用户，若无数据池，先创建数据池，现支持（file、S3、HDFS）。对于已经创建过数据池的用户，可直接进入到第四步。  
+* 对于新用户，若无数据池，先创建数据池，现支持 file、S3、HDFS 等三种类型。对于已经创建过数据池的用户，可直接进入到第四步。  
 
 
 #####输入  
 
-	datahub dp create datahubdp2 file:///var/lib/datahub
+	datahub dp create datahubdp1 file:///var/lib/datahub
 #####输出
-	DataHub : Datapool has been created successfully. 	Name:datahubdp2 Type:file Path:/var/lib/datahub.  
+	DataHub : Datapool has been created successfully. 	Name:datahubdp1 Type:file Path:/var/lib/datahub.  
 	  
 ###第五步 通过pull命令下载数据包（Tag）
 指定订购数据下需要下载的具体数据包名，Search_popular_vocabulary，指定下载数据包存放数据池datahubdp2,数据池下的hot、下载后的数据包名称hotword 。 
@@ -62,3 +62,8 @@
 	JOBID   STATUS              	DOWN      	TOTAL     	PERCENT   	TAG       
 	-----------------------------------------------------	---------------------------------------------
 	9218bec7	downloaded          	972       	972       	100.0%	Hot_searches/Hot_words:Search_popular_vocabulary
+###备注
+至第六步完成一个完整的数据下载过程就结束了。下载结果的后续查看途径：  
+
+* 通过datahub dp datahubdp2，查看数据池下的具体的数据文件。  
+* 直接下载 tag 时指定的目录 /var/lib/datahub/hot 查看。
