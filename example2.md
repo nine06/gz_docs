@@ -17,7 +17,7 @@
 	DataHub : login success.  
 	
 ###第三步 设置端口
-端口（Entry Point）需要在发布数据时设置，供后续数据需求方在得到认证和鉴权后获得下载数据的入口。端口包括协议、ip、port三部分。设置协议为http、ip为192.168.3.255、端口为1000。
+端口（ Entry Point ）需要在发布数据时设置，供后续数据需求方在得到认证和鉴权后获得下载数据的入口。端口包括协议、ip 、port 三部分。设置协议为 http、 ip 为192.168.3.255、端口为1000。
 #####输入（设置端口）  
 	datahub ep http://192.168.3.255:1000
 #####输出
@@ -51,7 +51,7 @@
 	Successed in publishing.
 
 ###第六步 在客户端发布名为 datahubtag 的数据包
-在客户点指定发布名为datahubtag1的tag。tag的存放地址在其对应的item目录datahubdp1://decitem1下，文件名为datahubtag.png，发布时将其描述设置为帮助文档样例描述。
+在客户端指定发布名为 datahubtag1 的 tag 。 tag 的存放地址在其对应的 item 目录 datahubdp1://decitem1 下，文件名为 datahubtag.png ，发布时将其描述设置为帮助文档样例描述。
 #####输入
 	datahub pub datahubrepo1/datahubitem1:datahubtag1 datahubtag.png -m=“帮助文档样例tag描述”
 #####输出
