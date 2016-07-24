@@ -12,6 +12,6 @@
     %msg       	
 #####例子  
     bash-3.2# datahub login
-	login as: gongjing5@asiainfo.com
+	login as: test@datahub.com
 	password: ******
 	DataHub : login success.
