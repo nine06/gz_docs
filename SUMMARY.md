@@ -1,4 +1,6 @@
-# Summary
+# Summary  
+<br>
+<hr style=" height:12px;border:none;border-top:4px solid #A9A9A9;" />  
 
 * [简介](README.md)
 * [用户注册](member.md)
@@ -18,6 +20,6 @@
 	* [subs 订购管理](subs.md)
 	* [version  版本](version.md)
 	* [help  帮助](help.md)    
-* 样例场景
+* [样例场景](example.md)
 	* [example1 下载数据场景](example1.md) 
 	* [example2 发布数据场景](example1.md)  
