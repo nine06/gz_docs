@@ -49,7 +49,42 @@
 	datahub pub datahubrepo1/datahubitem1 datahubdp1://decitem1 -m="帮助文档样例item描述" -t=private -s=batch
 #####输出
 	Successed in publishing.
+   
+######说明：在发布 DataItem 之前，可以在其对应的目录里创建、编译三个文件： sample.md 、 eta.md 、price.cfg ，这三个文件的作用分别是：
 
+ - sample.md 用于保存 Markdown 格式的样例数据，如果没有此文件，程序会读取此目录下的第一个 Tag 文件的前十行，作为样例数据，发布到 Item 的详情里。
+
+ - meta.md 用于保存 Markdown 格式的元数据。元数据在 DataHub 页面进行编辑和保存。
+
+ - price.cfg 用于保存 JSON 格式的资费计划，用来明确此 DataItem 的资费。资费在 DataHub 页面进行编辑和保存。
+
+格式如下：
+
+    {
+    	"price":[
+    				{
+                    	"times":10,
+                        "money": 5,
+                        "expire":30
+                    },
+                    {I
+                    	"times": 100,
+                        "money": 45,
+                        "expire":30
+                    },
+                    {
+                    	"times":500,
+                        "money": 400,
+                        "expire":30
+                    }
+                ]
+    }
+
+
+其中 times 代表可 pull 次数， money 代表价格， expire 代表有效期。
+   
+   
+   
 ###第六步 在客户端发布名为 datahubtag 的数据包
 在客户端指定发布名为 datahubtag1 的 tag 。 tag 的存放地址在其对应的 item 目录 datahubdp1://decitem1 下，文件名为 datahubtag.png ，发布时将其描述设置为帮助文档样例描述。
 #####输入

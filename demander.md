@@ -23,7 +23,7 @@ DataHub 提供的数据类型包括：批量数据、 API 数据和流式数据�
 
 ![](img/my_order.png)
  
-####第二步：数据下载（Client客户端操作）
+####第二步：数据下载（ Client 客户端操作）
 
 #####创建 Datapool
 
@@ -35,20 +35,23 @@ DataHub 提供的数据类型包括：批量数据、 API 数据和流式数据�
 
 如果成功，会显示：
 
-	datapool create success, name: mydp type:file path:/home/myusr/data/itempull
+	DataHub : Datapool has been created successfully. 	Name:datahubdp1 Type:file Path:/home/usr/data/itempull. 
+
 
 #####数据下载
 
-	datahub pull repotest/itemtest:tagtest mydp://mydir1 -d tagdestname.txt
+	datahub pull repotest/itemtest:tagtest mydp://mydir1 --destname=tagdestname
 
-以上命令下载了一个 Package 对应的数据到 mydp 中，子路径是 mydir1 。
+以上命令下载了一个 tag 对应的数据到 mydp 中，子路径是 mydir1 。
 
 如果成功，会显示：
 
-	DataHub : repotest/itemtest:tagtest will be pulled into /home/myusr/data/itempull/repotest_itemtest/mydir1
+	DataHub : repotest/itemtest:tagtest will be pulled as /home/usr/data/itempull/mydir1/tagdestname
 
-在该文件夹下，您将会看到已经下载到本地的 tagdestname.txt 文件。
+下载完成后，您将会看到已经下载到/home/usr/data/itempull/mydir1的 tagdestname 文件。
 
 ### 数据下载注意事项：
 
-> “申请订购”需等待数据提供方批准，批准后数据需求方才可在 Client 客户端开始下载数据。在数据提供方批准前，数据需求方可在 DataItem 详情页点击“取消订购”，撤销“申请订购”。
+* [pull命令详细介绍](pub.md) 
+* [下载数据样例场景](example1.md)
+* “申请订购”需等待数据提供方批准，批准后数据需求方才可在 Client 客户端开始下载数据。在数据提供方批准前，数据需求方可在 DataItem 详情页点击“取消订购”，撤销“申请订购”。

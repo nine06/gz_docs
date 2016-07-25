@@ -46,7 +46,7 @@
 
 #####输入  
 
-	datahub pull Hot_searches/Hot_words:Search_popular_vocabulary datahubdp2://hot -d=hotword
+	datahub pull Hot_searches/Hot_words:Search_popular_vocabulary datahubdp2://hot --destnam=hotword
 #####输出
 	DataHub : Hot_searches/Hot_words:Search_popular_vocabulary will be pulled soon and can be found as /var/lib/datahub/hot/hotword 
 
