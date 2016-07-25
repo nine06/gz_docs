@@ -18,7 +18,7 @@ DataHub 的数据结构由数据主题（ Repository ,简称 repo ）、数据�
 #####[help  帮助](help.md)    
 ###样例场景
 #####[example1 下载数据样例场景](example1.md) 
-#####[example2 发布数据样例场景](example1.md)
+#####[example2 发布数据样例场景](example2.md)
 
 #####说明
 * 如果没有额外说明，所有的命令在没有错误发生时，不在终端输出任何信息，只记录到日志中。错误信息会打印到终端。

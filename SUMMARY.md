@@ -22,4 +22,4 @@
 	* [help  帮助](help.md)    
 * [样例场景](example.md)
 	* [example1 下载数据场景](example1.md) 
-	* [example2 发布数据场景](example1.md)  
+	* [example2 发布数据场景](example2.md)  

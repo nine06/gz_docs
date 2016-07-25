@@ -5,4 +5,4 @@
 
 ###样例场景
 #####[example1 下载数据样例场景](example1.md) 
-#####[example2 发布数据样例场景](example1.md)
+#####[example2 发布数据样例场景](example2.md)
