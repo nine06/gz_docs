@@ -19,7 +19,7 @@
 ###[下载数据](demander.md)
 ###[发布数据](supplier.md)
 ###[Client端命令](client.md)
-#####[dp	数据池管理](dp.md)
+#####[dp 数据池管理](dp.md)
 #####[ep 端口管理](ep.md)
 #####[job 任务管理](job.md)
 #####[login 登录](login.md)
@@ -30,6 +30,6 @@
 #####[subs 订购管理](subs.md)
 #####[version  版本](version.md)
 #####[help  帮助](help.md)  
-#####[example1 下载数据样例场景](example1.md) 
-#####[example2 发布数据样例场景](example1.md)
+#####[example1 下载数据场景](example1.md) 
+#####[example2 发布数据场景](example1.md)
 

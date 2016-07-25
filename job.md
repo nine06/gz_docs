@@ -3,7 +3,7 @@
 <hr style=" height:12px;border:none;border-top:4px solid #A9A9A9;" />   
 数据下载任务的执行情况，可以通过job命令来查看。  
 ###1.1 查看正在执行的任务  
-查看正在执行的任务，可以看到任务id、任务状态、任务完成 百分比等等。
+查看正在执行的任务，可以看到任务 id 、任务状态、任务完成 百分比等等。
 #####输入
 	datahub job 
 #####输出  
@@ -43,7 +43,7 @@
 	ebcda4c5	downloaded          	443004623 	443004623 	100.0%	Location_information/Cell03:gt20160615
 	35ba309b	downloaded          	374033595 	374033595 	100.0%	Location_information/Cell03:gt20160620   
 ###1.4 删除全部未完成任务   
- 删除全部未完成的任务。
+ 删除全部任务。此处的删除未逻辑删除。
 #####输入  
 	datahub job rm --all   
 #####输出
@@ -53,7 +53,7 @@
 	DataHub : Remove all jobs OK.
  
 ###1.5 删除某个具体任务  
-删除某个（ jobid ）未完成的任务。
+删除某个（ jobid ）任务。
 #####输入  
 	datahub job rm $jobid   
 #####输出

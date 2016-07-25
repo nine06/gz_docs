@@ -18,5 +18,5 @@
 #####[subs 订购管理](subs.md)
 #####[version  版本](version.md)
 #####[help  帮助](help.md)  
-#####[example1 下载数据样例场景](example1.md) 
-#####[example2 发布数据样例场景](example1.md)
+#####[example1 下载数据场景](example1.md) 
+#####[example2 发布数据场景](example1.md)
