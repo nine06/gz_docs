@@ -1,8 +1,8 @@
-##dp	数据池管理
+##6.1  dp	数据池管理
 <br>
 <hr style=" height:12px;border:none;border-top:4px solid #A9A9A9;" />   
 数据池是存放数据的目录。无论是下载数据、发布数据，均需要指定数据存放的数据池。目前支持 file 、 s3 、 hdfs 三种类型的数据池。    
-###1.1 查看所有数据池
+###6.1.1 查看所有数据池
 #####命令  
 	datahub dp  
 #####输出  
@@ -20,7 +20,7 @@
 	datahubdp3          HDFS  
 
 
-###1.2 查看某个具体数据池详情
+###6.1.2 查看某个具体数据池详情
 #####命令  
 
 	datahub dp  $DPNAME
@@ -35,7 +35,7 @@
 	DATAPOOL:datahubdp1      	file            	/var/lib/datahub
 	datahubrepo1/datahubitem1:datahubtag1 	2016-07-23T06:55:56Z 	pub   	decitem1                         	datahubtag.png       	 Size:38.14 KB	   
 	Hot_searches/Hot_words:Search_popular_vocabulary 	2016-07-22T06:28:33Z 	pull  	hot                              	hotword              	Size:972 Bytes
-###1.3 创建数据池    
+###6.1.3 创建数据池    
 创建数据池时可以设定数据池的类型，目前支持 file 、 s3 、 hdfs 三种类型。
 #####命令  
 
@@ -58,7 +58,7 @@
 		  
 		$ datahub dp create hdfsdp hdfs://				user123:admin123@x.x.x.x:9000  
 		
-###1.4 删除数据池
+###6.1.4 删除数据池
 删除数据池是逻辑删除，不会删除数据池所在的目录，以及数据池中的数据。当数据池中有发布的数据项时，不能被删除。
 #####命令
 	datahub dp rm $DPNAME    

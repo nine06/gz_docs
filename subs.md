@@ -1,8 +1,8 @@
-##subs  订购管理   
+##6.9 subs  订购管理   
 <br>
 <hr style=" height:12px;border:none;border-top:4px solid #A9A9A9;" />     
 用户在 DataHub 网站（ hub.dataos.io ）订购数据后，可登录客户端，通过 subs 命令在客户端查看已经订购的数据。
-###1.1 查看所有订购的 repo/item
+###6.9.1 查看所有订购的 repo/item
 #####输入
 	datahub subs
 #####输出  
@@ -15,7 +15,7 @@
 	Internet_stats/Ecommerce_goods        file        online      
 	。。。。。。
 
-###1.2 查看订购的某个 repo/item 下的 tag
+###6.9.2 查看订购的某个 repo/item 下的 tag
 #####输入
 	datahub subs $REPOSITORY/$ITEM
 #####输出  

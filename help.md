@@ -1,8 +1,8 @@
-##help 帮助  
+##6.11 help 帮助  
 <br>
 <hr style=" height:12px;border:none;border-top:4px solid #A9A9A9;" />  
 查看客户端命令的帮助。
-###1.1 查看帮助
+###6.11.1 查看帮助
 #####输入
 	datahub $command --help  
 	或者  

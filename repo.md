@@ -1,8 +1,8 @@
-##repo  数据主题管理   
+##6.8 repo  数据主题管理   
 <br>
 <hr style=" height:12px;border:none;border-top:4px solid #A9A9A9;" />     
 用户登录前，可通过 repo 命令查看所有免费的数据，登录后通过 repo 命令可以查看所有具备写权限的数据主题（ repository，简称 repo ）。
-###1.1 查看免费数据主题（ repo ）
+###6.8.1 查看免费数据主题（ repo ）
 登录前，通过 repo 命令查看免费数据主题。
 #####输入
 	datahub repo
@@ -29,7 +29,7 @@
 	Tourism         
 	。。。。。。
 
-###1.2 查看某个免费数据主题（ repo ）下的数据集（ ietm ）  
+###6.8.2 查看某个免费数据主题（ repo ）下的数据集（ ietm ）  
 登录前，通过 repo 命令查看某个免费数据主题下的数据集。
 #####输入
 	datahub repo $REPOSITORY
@@ -45,7 +45,7 @@
 	Internet_stats/Books
 	Internet_stats/Cars
 
-###1.3 查看具备写权限的数据主题（ repo ）  
+###6.8.3 查看具备写权限的数据主题（ repo ）  
 登录后，通过 repo 命令查看具备写权限的数据主题。
 #####输入
 	datahub repo
@@ -58,7 +58,7 @@
 	Mobile_APP      
 	datahubrepo1      
 
-###1.4 查看具备写权限数据主题（ repo ）下的数据集（ ietm ）  
+###6.8.4 查看具备写权限数据主题（ repo ）下的数据集（ ietm ）  
 登录后，通过 repo 命令查看具备写权限数据主题下的数据集。
 #####输入
 	datahub repo $REPOSITORY

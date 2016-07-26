@@ -1,4 +1,4 @@
-##应用场景一 ： 发布数据
+##7.2 应用场景一 ： 发布数据
 <br>
 <hr style=" height:12px;border:none;border-top:4px solid #A9A9A9;" /> 
 下面介绍从 DataHub 网站发布名为 datahubrepo1 的数据主题，在客户端发布名为 datahubitem1 的数据集、名为 datahubtag1 的数据包。

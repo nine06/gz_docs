@@ -1,8 +1,8 @@
-##logout 退出  
+##6.5 logout 退出  
 <br>
 <hr style=" height:12px;border:none;border-top:4px solid #A9A9A9;" />  
   
-###1.1 退出  
+###6.5.1 退出  
 
 #####输入
 	datahub logout 
