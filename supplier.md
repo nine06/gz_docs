@@ -1,4 +1,4 @@
-##发布数据
+##5. 发布数据
 <br><hr style=" height:12px;border:none;border-top:4px solid #A9A9A9;" /> 
 
 发布数据是数据提供方的行为，需要在网页端和 Client 客户端分步操作。在网页端您可以完成：新增私有\开放 Repository 、修改私有\开放 Repository 、修改私有\开放 DataItem ，而新增私有\开放 DataItem 、新增 Tag 等则需要通过客户端( Client )来完成。
@@ -6,27 +6,27 @@
 ###第一步：新增 Repository （网页端操作）
 
 1)如果您是认证用户，登录之后，您可以开始发布数据了。进入 DataHub 网站（ hub.dataos.io ）“我的发布”，或者直接输入网址：[https://hub.dataos.io/my/publish](https://hub.dataos.io/my/publish)。
-
+<br></br>
 ![](/img/mypub.png)
-
+<br></br>
 2)在“我的发布”页面，选择开放或私有 Repository （新建私有 Repository 需要会员级别是钻石会员或金卡会员）。
-
+<br></br>
 ![](img/mypub2.png)
-
+<br></br>
 3)在弹出的“新增 Repository ”的设置页面，填写 Repository 的名称、描述和属性。
-
+<br></br>
 ![](img/new_repo_create.png)
-
+<br></br>
 4)填写信息提交后，我的发布页面将出现新的 Repository 信息。
-
+<br></br>
 ![](img/new_repo.png.jpg)
 
 ###第二步：新增 DataItem （ Client 客户端操作）
 
 假设在 `/home/myusr/data/topub` 目录下存在若干文件，我们要发布这个目录里面的数据。
-
-#####创建 Datapool
-
+<br></br>
+1)创建 Datapool
+<br></br>
 数据提供方使用 Client 客户端发布 DataItem 前，需要在本地基于已有数据建立一个 Datapool ，发布这个 Datapool 里面的数据。
 
 	datahub dp create mydp file:///home/myusr/data
@@ -36,9 +36,9 @@
 如果成功，会显示：
  
 	Datapool has been created successfully. 	Name:mydp type:file path:/home/myusr/data.
-
-####新增 DataItem
-
+<br></br>
+2)新增 DataItem
+<br></br>
 发布 DataItem 需要指定 `$DATAPOOL` 和 `$DATAPOOL` 下的子路径 `$LOCATION` 。可选参数item属性（ accesstype ），可选为public或者 private, 默认 private；可选参数item描述（ comment ）；可选参数数据类型（ supplystyle ），可为流式（ flow ）、 api 、批量（ batch ）中的一种，默认为批量。
 
 	datahub pub myrepo/myitem mydp://topub --accesstype=public --comment="my test item" --supplystyle=batch
@@ -48,34 +48,34 @@
 如果成功，会显示：
 
 	DataHub : Successed in publishing.
-
-####补充 DataItem 信息
-
+<br></br>
+3)补充 DataItem 信息
+<br></br>
 您可以选择在网页端或 Client 客户端对 DataItem 的信息进行补充。
 
-- ######在网页端补充 DataItem 信息
+*  在网页端补充 DataItem 信息
 
-    - 选择 DataItem 修改，或样例、元数据修改。
+    * 选择 DataItem 修改，或样例、元数据修改。
 
     ![](img/item.png)
 
-	- 修改 DataItem 页面：
+	* 修改 DataItem 页面：
 
 	![](img/update_item.png)
 
-	- 修改样例或元数据页面：
+	* 修改样例或元数据页面：
 
 	![](img/update_sample_meta.png)
 
-- ######在 Client 客户端补充 DataItem 信息
+* 在 Client 客户端补充 DataItem 信息
 
-	在发布 DataItem 之前，可以在其对应的目录里创建、编译三个文件： sample.md 、 eta.md 、price.cfg ，这三个文件的作用分别是：
+	* 在发布 DataItem 之前，可以在其对应的目录里创建、编译三个文件： sample.md 、 eta.md 、price.cfg ，这三个文件的作用分别是：
 
- - sample.md 用于保存 Markdown 格式的样例数据，如果没有此文件，程序会读取此目录下的第一个 tag 文件的前十行，作为样例数据，发布到 item 的详情里。
+	* sample.md 用于保存 Markdown 格式的样例数据，如果没有此文件，程序会读取此目录下的第一个 tag 文件的前十行，作为样例数据，发布到 item 的详情里。
 
- - meta.md 用于保存 Markdown 格式的元数据。
+	* meta.md 用于保存 Markdown 格式的元数据。
 
- - price.cfg 用于保存 JSON 格式的资费计划，用来明确此 DataItem 的资费。
+	* price.cfg 用于保存 JSON 格式的资费计划，用来明确此 DataItem 的资费。
 
 格式如下：
 
@@ -108,7 +108,8 @@
 
 	datahub pub myrepo/myitem:mytag test.txt
 
-以上命令发布了一个名称为 mytag 的 tag，所属 DataItem 是 myitem，对应的数据文件是 `/home/myusr/data/topub/test.txt`。
+以上命令发布了一个名称为 mytag 的 tag，所属 DataItem 是 myitem，对应的数据文件是  
+	 `/home/myusr/data/topub/test.txt`。
 
 如果成功，会显示：
 
