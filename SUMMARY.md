@@ -1,6 +1,4 @@
-# Summary  
-<br>
-<hr style=" height:12px;border:none;border-top:4px solid #A9A9A9;" />  
+# Summary   
 
 * [简介](README.md)
 * [用户注册](member.md)
