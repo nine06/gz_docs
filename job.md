@@ -1,6 +1,5 @@
 ##6.3 job	任务管理
-<br>
-<hr style=" height:12px;border:none;border-top:4px solid #A9A9A9;" />   
+<hr style=" border:4px solid #A9A9A9;" /> 
 数据下载任务的执行情况，可以通过job命令来查看。  
 ###6.3.1 查看正在执行的任务  
 查看正在执行的任务，可以看到任务 id 、任务状态、任务完成 百分比等等。

@@ -1,6 +1,5 @@
 ##6.5 logout 退出  
-<br>
-<hr style=" height:12px;border:none;border-top:4px solid #A9A9A9;" />  
+<hr style=" border:4px solid #A9A9A9;" />
   
 ###6.5.1 退出  
 

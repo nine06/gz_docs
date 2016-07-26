@@ -1,6 +1,5 @@
 ##6.7 pull  下载数据   
-<br>
-<hr style=" height:12px;border:none;border-top:4px solid #A9A9A9;" />     
+<hr style=" border:4px solid #A9A9A9;" />   
 在 DataHub 网站订购数据（ repo/item ）后，可通过客户端（ Client ）下载数据包（ tag ）。
 ###6.7.1 下载某个指定 tag
 下载 tag 时，需要明确 tag 存放的数据池（ datapool ），以及数据池下的路径，可重命名下载的 tag 。    

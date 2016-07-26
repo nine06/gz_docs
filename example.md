@@ -1,6 +1,5 @@
 ##7. example 样例场景  
-<br>
-<hr style=" height:12px;border:none;border-top:4px solid #A9A9A9;" />  
+<hr style=" border:4px solid #A9A9A9;" />
 
 
 ###样例场景

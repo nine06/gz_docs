@@ -1,5 +1,5 @@
 ##1. 用户注册
-<br><hr style=" border:4px solid #A9A9A9;" />
+<hr style=" border:4px solid #A9A9A9;" />
 
 ###数据需求方：
 

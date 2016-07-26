@@ -1,6 +1,5 @@
 ##6.10 version 版本  
-<br>
-<hr style=" height:12px;border:none;border-top:4px solid #A9A9A9;" />  
+<hr style=" border:4px solid #A9A9A9;" /> 
 查看当前客户端（ Client ）  的版本。
 ###6.10.1 查看客户端版本
 #####输入

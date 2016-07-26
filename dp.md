@@ -1,6 +1,5 @@
 ##6.1  dp	数据池管理
-<br>
-<hr style=" height:12px;border:none;border-top:4px solid #A9A9A9;" />   
+<hr style=" border:4px solid #A9A9A9;" />  
 数据池是存放数据的目录。无论是下载数据、发布数据，均需要指定数据存放的数据池。目前支持 file 、 s3 、 hdfs 三种类型的数据池。    
 ###6.1.1 查看所有数据池
 #####命令  

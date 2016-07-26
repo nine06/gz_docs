@@ -1,5 +1,5 @@
 ##4. 下载数据
-<br><hr style=" height:12px;border:none;border-top:4px solid #A9A9A9;" /> 
+<hr style=" border:4px solid #A9A9A9;" />
 
 DataHub 提供的数据类型包括：批量数据、 API 数据和流式数据。
 
