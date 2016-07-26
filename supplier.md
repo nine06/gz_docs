@@ -1,5 +1,8 @@
 ##5. 发布数据
-<br><hr style=" height:12px;border:none;border-top:4px solid #A9A9A9;" /> 
+
+
+<hr style=" border:4px solid #A9A9A9;" />  
+
 
 发布数据是数据提供方的行为，需要在网页端和 Client 客户端分步操作。在网页端您可以完成：新增私有\开放 Repository 、修改私有\开放 Repository 、修改私有\开放 DataItem ，而新增私有\开放 DataItem 、新增 Tag 等则需要通过客户端( Client )来完成。
 
