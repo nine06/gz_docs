@@ -7,7 +7,7 @@ DataHub 提供的数据类型包括：批量数据、 API 数据和流式数据�
 
 ###第一步：订购数据（网页端操作）
 
-1)进入 DataHub 网站，查看、搜索 Repository 、 DataItem 后，选择需要订购的数据，根据数据提供方设定的不同权限，点击“立刻订购”或“申请订购”。  
+1)进入 广数DataHub 网站，查看、搜索 Repository 、 DataItem 后，选择需要订购的数据，根据数据提供方设定的不同权限，点击“立刻订购”或“申请订购”。  
 <br></br>
 
 ![](img/immediate_to_buy.png)![](img/apply_to_buy.png)
