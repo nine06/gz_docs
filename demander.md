@@ -12,12 +12,12 @@ DataHub 提供的数据类型包括：批量数据、 API 数据和流式数据�
 
 ![](img/immediate_to_buy.png)![](img/apply_to_buy.png)
   
-<br></br>
+<br></br>  
 2)签订数据订购合约。甲方为数据需求方，乙方为数据提供方。  
 <br></br>
 
 ![](img/contract.png)
- <br></br>
+ <br></br>  
 3)查看签约结果。订购成功后，可立即在 Client 客户端开始 pull 数据。  
 <br></br>
 
