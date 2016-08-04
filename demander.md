@@ -30,7 +30,6 @@ DataHub 提供的数据类型包括：批量数据、 API 数据和流式数据�
 ![](img/my_order.png)
  
 ###第二步：数据下载（ Client 客户端操作）
-<br></br> 
 1)创建 Datapool
 <br></br>
 如果需要下载数据，则必须创建相应的 Datapool 。
