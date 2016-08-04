@@ -27,7 +27,7 @@
 ###第二步：新增 DataItem （ Client 客户端操作）
 
 假设在 `/home/myusr/data/topub` 目录下存在若干文件，我们要发布这个目录里面的数据。
-<br></br>
+
 1)创建 Datapool
 <br></br>
 数据提供方使用 Client 客户端发布 DataItem 前，需要在本地基于已有数据建立一个 Datapool ，发布这个 Datapool 里面的数据。
@@ -39,7 +39,7 @@
 如果成功，会显示：
  
 	Datapool has been created successfully. 	Name:mydp type:file path:/home/myusr/data.
-<br></br>
+
 2)新增 DataItem
 <br></br>
 发布 DataItem 需要指定 `$DATAPOOL` 和 `$DATAPOOL` 下的子路径 `$LOCATION` 。可选参数item属性（ accesstype ），可选为public或者 private, 默认 private；可选参数item描述（ comment ）；可选参数数据类型（ supplystyle ），可为流式（ flow ）、 api 、批量（ batch ）中的一种，默认为批量。
@@ -51,7 +51,7 @@
 如果成功，会显示：
 
 	DataHub : Successed in publishing.
-<br></br>
+
 3)补充 DataItem 信息
 <br></br>
 您可以选择在网页端或 Client 客户端对 DataItem 的信息进行补充。
