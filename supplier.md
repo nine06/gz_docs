@@ -8,7 +8,7 @@
 
 ###第一步：新增 Repository （网页端操作）
 
-1)如果您是认证用户，登录之后，您可以开始发布数据了。进入 广数DataHub 网站（ hub.dataos.io ）“我的发布”，或者直接输入网址：[http://www.gzbdex.com/my/publish](http://www.gzbdex.com/my/publish)。
+1)如果您是认证用户，登录之后，您可以开始发布数据了。进入 广数DataHub 网站（ hub.dataos.io ）“我的发布”，或者直接输入网址：[www.gzbdex.com/my/publish](www.gzbdex.com/my/publish)。
 <br></br>
 ![](/img/mypub.png)
 <br></br>
