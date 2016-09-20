@@ -9,7 +9,7 @@
 
 ###第二步 通过 longin 命令登录 Client 端
 #####输入
-	datahub login
+	datahub login www.gzbdex.com
 #####输出	  
 	login as: ********@*******.com
 	password: ******

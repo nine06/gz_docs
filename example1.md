@@ -1,4 +1,4 @@
-##7.1 应用场景一 ： 下载数据
+ ##7.1 应用场景一 ： 下载数据
 <hr style=" border:4px solid #A9A9A9;" />
 下面介绍从 广数DataHub 网站订购网络搜索热词数据（ Hot_searches / Hot_words ） ，并通过客户端下载。
 ###第一步 在广数DataHub网站订购数据
@@ -10,7 +10,7 @@
 
 ###第二步 通过longin命令登录Client端
 #####输入
-	datahub login
+	datahub login www.gzbdex.com
 #####输出	  
 	login as: ********@*******.com
 	password: ******
