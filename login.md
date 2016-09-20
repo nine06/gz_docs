@@ -10,7 +10,7 @@
     password: ******
     %msg       	
 #####例子  
-    bash-3.2# datahub login
+    bash-3.2# datahub login www.gzbdex.com  
 	login as: test@datahub.com
 	password: ******
 	DataHub : login success.
