@@ -25,7 +25,7 @@
 - 付费升级为钻石会员，可以获得更多数据托管空间、发布私有数据等资源量。
  * 私有数据：自己和指定白名单用户可见。
 
-1)登录网址：[http://www.gzbdex.com](http://www.gzbdex.com)
+1)登录网址：[www.gzbdex.com](www.gzbdex.com)
 
 ![](img/login.png)
 

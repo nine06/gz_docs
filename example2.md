@@ -95,4 +95,4 @@
 至第六步完成，一个完整的数据发布过程就结束了。发布的结果后续查看 ：  
   
 * 可通过命令行 datahub repo datahubrepo1/datahubitem1 查看。  
-* 或者到 DataHub 网站 hub.dataos.io ，“我的发布”中查看。
+* 或者到 广数DataHub 网站（www.gzbdex.com），“我的发布”中查看。
